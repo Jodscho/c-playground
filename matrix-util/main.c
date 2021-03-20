@@ -2,8 +2,8 @@
 
 int main() {
 
-    float vals1[] = {1,5,3,2};
-    float vals2[] = {1,2,3,4,5,6};
+    double vals1[] = {1,5,3,2};
+    double vals2[] = {1,2,3,4,5,6};
     struct matrix* m1 = create(2, 2, vals1);
     struct matrix* m2 = create(2, 3, vals2);
 
